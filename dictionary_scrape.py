@@ -61,7 +61,6 @@ def login_and_get_cookies():
         list: A list of cookies from the Selenium session.
     """
     options = Options()
-    # Uncomment the next line to run headless.
     options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
     
